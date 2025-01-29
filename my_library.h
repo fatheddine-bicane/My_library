@@ -6,7 +6,7 @@
 /*   By: fbicane <fatheddine04@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 15:12:10 by fbicane           #+#    #+#             */
-/*   Updated: 2025/01/29 15:41:54 by fbicane          ###   ########.fr       */
+/*   Updated: 2025/01/29 15:52:52 by fbicane          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,5 +97,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 /*------------------------------------------------------------------------*/
+
+void	ft_perror(const char *err_msg);
 
 #endif
