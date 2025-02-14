@@ -6,7 +6,7 @@
 /*   By: fbicane <fatheddine04@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 15:12:10 by fbicane           #+#    #+#             */
-/*   Updated: 2025/01/29 15:52:52 by fbicane          ###   ########.fr       */
+/*   Updated: 2025/02/10 13:43:08 by fbicane          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 //get_next_line
 /*----------------------------------*/
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 10
+#  define BUFFER_SIZE 20
 # endif
 
 # ifndef FD
